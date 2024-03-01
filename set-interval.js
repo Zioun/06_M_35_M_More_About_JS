@@ -7,4 +7,5 @@ const clockId = setInterval(() =>{
         clearInterval(clockId)
     }
     console.log(clockId,counter)
-},1000)
+},1000);
+
