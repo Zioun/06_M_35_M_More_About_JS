@@ -6,5 +6,6 @@ const clockId = setInterval(() =>{
     if(counter > 60){
         clearInterval(clockId)
     }
+    
     console.log(clockId,counter)
 },1000)
